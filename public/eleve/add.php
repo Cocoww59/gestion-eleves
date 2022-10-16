@@ -1,6 +1,5 @@
 <?php
 session_start();
-echo("gg");
 if(isset($_POST["nom"], $_POST["prenom"], $_POST["sexe"])) {
     require("../../utils.php");
     require("../../db.php");
