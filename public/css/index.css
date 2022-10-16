@@ -58,6 +58,18 @@ button[name="remove-db"] {
     border-color: #8f8f8f;
 }
 
+.image-eleve {
+    background: center/cover url("/media/eleves/men.jpg") no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px grey;
+    border-radius: 50%;
+}
+.image-eleve.women {
+    background-image: url("/media/eleves/women.jpg");
+}
+
 .name-eleve {
     max-width: max-content;
     margin-bottom: 25px;
