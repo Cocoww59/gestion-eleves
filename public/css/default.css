@@ -1,0 +1,35 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+label,
+input {
+    display: block;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+}
+
+.app {
+    position: relative;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+.suc {
+    color: green;
+}
+.err {
+    color: red;
+}
